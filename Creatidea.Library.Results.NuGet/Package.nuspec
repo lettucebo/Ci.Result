@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
     <metadata>
-        <id>Creatidea.Library.Results</id>
-        <version>1.0.0</version>
-        <title>Creatidea.Library.Results</title>
+        <id>CiResult</id>
+        <version>1.1.0</version>
+        <title>CiResult</title>
         <authors>Money</authors>
         <owners>Money</owners>
         <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
