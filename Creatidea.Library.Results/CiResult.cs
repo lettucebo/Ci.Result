@@ -10,13 +10,13 @@
         /// </summary>
         public CiResult()
         {
-            Success = false;
+            ReturnResult = ReturnResult.Fail;
         }
 
         /// <summary>
         /// 是否執行成功
         /// </summary>
-        public bool Success { get; set; }
+        public ReturnResult ReturnResult { get; set; }
 
         /// <summary>
         /// 執行訊息
