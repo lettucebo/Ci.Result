@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Creatidea.Library.Results
 {
-    public enum ReturnResult
+    public enum Result
     {
         Success = 0,
         Fail = 1,
