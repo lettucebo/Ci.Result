@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creatidea.Library.Results", "Creatidea.Library.Results\Creatidea.Library.Results.csproj", "{86F08ADD-0AE9-48B3-AFB2-45552B29BD64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ci.Result", "Ci.Result\Ci.Result.csproj", "{86F08ADD-0AE9-48B3-AFB2-45552B29BD64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creatidea.Library.Results.NuGet", "Creatidea.Library.Results.NuGet\Creatidea.Library.Results.NuGet.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ci.Result.NuGet", "Ci.Result.NuGet\Ci.Result.NuGet.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

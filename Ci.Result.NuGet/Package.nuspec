@@ -2,12 +2,12 @@
 <package >
     <metadata>
         <id>Ci.Result</id>
-        <version>2.0.0</version>
+        <version>2.1.0</version>
         <title>Ci.Result</title>
         <authors>Money</authors>
         <owners>Money</owners>
         <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-        <projectUrl>https://nuget.org/packages/Creatidea.Library.Results</projectUrl>
+        <projectUrl>https://github.com/lettucebo/Ci.Result</projectUrl>
         <iconUrl>http://i.imgur.com/2H44Wnd.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>自訂執行結果</description>
@@ -15,13 +15,14 @@
         <copyright>Copyright  2016</copyright>
         <language>zh-TW</language>
         <dependencies>
-            <group targetFramework="net45">
+            <group targetFramework="net4">
             </group>
         </dependencies>
         <references></references>
         <tags></tags>
     </metadata>
     <files>
-        <file src="lib\Creatidea.Library.Results.dll" target="lib\Creatidea.Library.Results.dll" />
+        <file src="lib\Ci.Result.dll" target="lib\Ci.Result.dll" />
+        <file src="lib\Ci.Result.XML" target="lib\Ci.Result.XML" />
     </files>
 </package>
