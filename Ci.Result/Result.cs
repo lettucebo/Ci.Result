@@ -1,4 +1,4 @@
-﻿namespace Creatidea.Library.Results
+﻿namespace Ci.Result
 {
     public enum Result
     {

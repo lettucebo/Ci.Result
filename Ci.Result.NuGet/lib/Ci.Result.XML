@@ -4,49 +4,49 @@
         <name>Ci.Result</name>
     </assembly>
     <members>
-        <member name="T:Creatidea.Library.Results.CiResult">
+        <member name="T:Ci.Result.CiResult">
             <summary>
             執行結果
             </summary>
         </member>
-        <member name="M:Creatidea.Library.Results.CiResult.#ctor">
+        <member name="M:Ci.Result.CiResult.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="T:Creatidea.Library.Results.CiResult"/> class.
+            Initializes a new instance of the <see cref="T:Ci.Result.CiResult"/> class.
             </summary>
         </member>
-        <member name="P:Creatidea.Library.Results.CiResult.Status">
+        <member name="P:Ci.Result.CiResult.Status">
             <summary>
             是否執行成功
             </summary>
         </member>
-        <member name="P:Creatidea.Library.Results.CiResult.Message">
+        <member name="P:Ci.Result.CiResult.Message">
             <summary>
             執行訊息
             </summary>
         </member>
-        <member name="T:Creatidea.Library.Results.CiResult`1">
+        <member name="T:Ci.Result.CiResult`1">
             <summary>
             執行結果
             </summary>
             <typeparam name="T">泛型回傳</typeparam>
-            <seealso cref="T:Creatidea.Library.Results.CiResult" />
+            <seealso cref="T:Ci.Result.CiResult" />
         </member>
-        <member name="P:Creatidea.Library.Results.CiResult`1.Data">
+        <member name="P:Ci.Result.CiResult`1.Data">
             <summary>
             結果物件
             </summary>
         </member>
-        <member name="F:Creatidea.Library.Results.Result.Success">
+        <member name="F:Ci.Result.Result.Success">
             <summary>
             success
             </summary>
         </member>
-        <member name="F:Creatidea.Library.Results.Result.Fail">
+        <member name="F:Ci.Result.Result.Fail">
             <summary>
             fail
             </summary>
         </member>
-        <member name="F:Creatidea.Library.Results.Result.SessionTimeOut">
+        <member name="F:Ci.Result.Result.SessionTimeOut">
             <summary>
             session time out
             </summary>

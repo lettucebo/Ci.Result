@@ -1,4 +1,4 @@
-﻿namespace Creatidea.Library.Results
+﻿namespace Ci.Result
 {
     /// <summary>
     /// 執行結果
