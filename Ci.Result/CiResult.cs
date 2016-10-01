@@ -10,13 +10,13 @@
         /// </summary>
         public CiResult()
         {
-            Status = Result.Fail;
+            Result = Result.Fail;
         }
 
         /// <summary>
         /// 是否執行成功
         /// </summary>
-        public Result Status { get; set; }
+        public Result Result { get; set; }
 
         /// <summary>
         /// 執行訊息

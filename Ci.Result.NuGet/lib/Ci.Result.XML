@@ -14,7 +14,7 @@
             Initializes a new instance of the <see cref="T:Ci.Result.CiResult"/> class.
             </summary>
         </member>
-        <member name="P:Ci.Result.CiResult.Status">
+        <member name="P:Ci.Result.CiResult.Result">
             <summary>
             是否執行成功
             </summary>
