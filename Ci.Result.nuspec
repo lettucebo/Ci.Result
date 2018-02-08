@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Ci.Result</id>
+        <version>3.0.0</version>
+        <authors>MoneyYu</authors>
+        <owners>MoneyYu</owners>
+        <projectUrl>https://github.com/lettucebo/Ci.Result</projectUrl>
+        <iconUrl>https://i.imgur.com/3xZ4Cdx.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Make easier handle execute result</description>
+        <summary>Make easier handle execute result</summary>
+    </metadata>
+    <files>
+        <file src="Ci.Result\bin\Release\Ci.Result.dll" target="lib\net452\Ci.Result.dll" />
+        <file src="Ci.Result\bin\Release\Ci.Result.XML" target="lib\net452\Ci.Result.XML" />
+    </files>
+</package>
