@@ -3,20 +3,20 @@
     /// <summary>
     /// 執行結果
     /// </summary>
-    public class CiResult
+    public class Result
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="CiResult"/> class.
+        /// Initializes a new instance of the <see cref="Result"/> class.
         /// </summary>
-        public CiResult()
+        public Result()
         {
-            Result = Result.Fail;
+            Status = Status.Fail;
         }
 
         /// <summary>
         /// 是否執行成功
         /// </summary>
-        public Result Result { get; set; }
+        public Status Status { get; set; }
 
         /// <summary>
         /// 執行訊息
@@ -28,8 +28,8 @@
     /// 執行結果
     /// </summary>
     /// <typeparam name="T">泛型回傳</typeparam>
-    /// <seealso cref="CiResult" />
-    public class CiResult<T> : CiResult
+    /// <seealso cref="Result" />
+    public class Result<T> : Result
     {
         /// <summary>
         /// 結果物件

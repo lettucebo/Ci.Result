@@ -1,6 +1,6 @@
 ﻿namespace Ci.Result
 {
-    public enum Result
+    public enum Status
     {
         /// <summary>
         /// success
