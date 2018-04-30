@@ -1,4 +1,4 @@
-﻿namespace Ci.Result
+﻿namespace Ci.Result.Core
 {
     public enum Result
     {
