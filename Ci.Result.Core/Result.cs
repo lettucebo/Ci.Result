@@ -1,5 +1,8 @@
 ﻿namespace Ci.Result.Core
 {
+    /// <summary>
+    /// Result code
+    /// </summary>
     public enum Result
     {
         /// <summary>
