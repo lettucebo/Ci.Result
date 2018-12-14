@@ -3,18 +3,43 @@
     public enum Result
     {
         /// <summary>
-        /// success
+        /// Everything went well
         /// </summary>
-        Success = 0,
+        Success = 1,
 
         /// <summary>
-        /// fail
+        /// Something went wrong
         /// </summary>
-        Fail = 1,
+        Failure = 2,
 
         /// <summary>
-        /// session time out
+        /// Can not find something
         /// </summary>
-        SessionTimeOut = 2
+        NotFound = 3,
+
+        /// <summary>
+        /// Took too long to process something
+        /// </summary>
+        Timeout = 4,
+
+        /// <summary>
+        /// Same thing already exist
+        /// </summary>
+        Duplicate = 5,
+
+        InValid = 6,
+        Expired = 7,
+        HasUsed = 8,
+        UnAuthorized = 9,
+
+        /// <summary>
+        /// database query error
+        /// </summary>
+        DbError = 10,
+
+        /// <summary>
+        /// parameter error
+        /// </summary>
+        ParameterError = 11
     }
 }
