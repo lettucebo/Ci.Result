@@ -6,22 +6,14 @@
     public class CiResult
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="Ci.Result"/> class.
-        /// </summary>
-        public CiResult()
-        {
-            Result = Result.Fail;
-        }
-
-        /// <summary>
         /// Execution result
         /// </summary>
-        public Result Result { get; set; }
+        public CiStatus Status { get; set; } = CiStatus.Failure;
 
         /// <summary>
         /// Execution message
         /// </summary>
-        public string Message { get; set; }
+        public string Message { get; set; } = string.Empty;
     }
 
     /// <summary>
@@ -34,6 +26,6 @@
         /// <summary>
         /// Execution return data
         /// </summary>
-        public T Data { get; set; }
+        public T Payload { get; set; }
     }
 }

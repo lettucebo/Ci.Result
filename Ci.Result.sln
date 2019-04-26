@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28809.33
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ci.Result", "Ci.Result\Ci.Result.csproj", "{86F08ADD-0AE9-48B3-AFB2-45552B29BD64}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ci.Result.Core", "Ci.Result.Core\Ci.Result.Core.csproj", "{45A0C850-0561-4C99-A1B7-94A977D4AC69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ci.Result", "Ci.Result\Ci.Result.csproj", "{45A0C850-0561-4C99-A1B7-94A977D4AC69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{86F08ADD-0AE9-48B3-AFB2-45552B29BD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86F08ADD-0AE9-48B3-AFB2-45552B29BD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86F08ADD-0AE9-48B3-AFB2-45552B29BD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86F08ADD-0AE9-48B3-AFB2-45552B29BD64}.Release|Any CPU.Build.0 = Release|Any CPU
 		{45A0C850-0561-4C99-A1B7-94A977D4AC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{45A0C850-0561-4C99-A1B7-94A977D4AC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45A0C850-0561-4C99-A1B7-94A977D4AC69}.Release|Any CPU.ActiveCfg = Release|Any CPU

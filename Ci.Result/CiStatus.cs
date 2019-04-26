@@ -1,9 +1,9 @@
-﻿namespace Ci.Result.Core
+﻿namespace Ci.Result
 {
     /// <summary>
     /// Result code
     /// </summary>
-    public enum Result
+    public enum CiStatus
     {
         /// <summary>
         /// Everything went well
@@ -30,19 +30,32 @@
         /// </summary>
         Duplicate = 5,
 
-        InValid = 6,
+        Valid = 6,
+
         Expired = 7,
-        HasUsed = 8,
+
+        Used = 8,
+
         UnAuthorized = 9,
 
         /// <summary>
-        /// 資料庫 Query 發生錯誤
+        /// database query error
         /// </summary>
         DbError = 10,
 
         /// <summary>
-        /// 參數錯誤
+        /// parameter error
         /// </summary>
-        ParameterError = 11
+        ParameterError = 11,
+
+        /// <summary>
+        /// Model Validation Fail
+        /// </summary>
+        ValidationFail = 12,
+
+        /// <summary>
+        /// Data not being change
+        /// </summary>
+        NoChange = 13
     }
 }
