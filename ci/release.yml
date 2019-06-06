@@ -37,6 +37,7 @@ steps:
     versionSpec: 4.8.1
 
 - task: NuGetCommand@2
+  displayName: 'NuGet pack Ci.Result'
   inputs:
     command: 'pack'
     packagesToPack: 'src\Ci.Result\Ci.Result.csproj'
