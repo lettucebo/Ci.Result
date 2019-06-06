@@ -39,10 +39,12 @@ steps:
 - task: NuGetCommand@2
   displayName: 'NuGet pack Ci.Result'
   inputs:
-    command: pack
-    packagesToPack: 'src\Ci.Result\Ci.Result.csproj'
+    command: 'pack'
+    packagesToPack: '**/Ci.Result.csproj'
+    versioningScheme: 'off'
 
 - task: NuGetCommand@2
+  displayName: 'NuGet push Ci.Result'
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
