@@ -40,9 +40,8 @@ steps:
   displayName: 'NuGet pack Ci.Result'
   inputs:
     command: 'pack'
-    packagesToPack: 'src\Ci.Result\Ci.Result.csproj'
+    packagesToPack: '**/Ci.Result.csproj'
     versioningScheme: 'off'
-    packDestination: '$(Build.ArtifactStagingDirectory)'
 
 - task: NuGetCommand@2
   displayName: 'NuGet push Ci.Result'
