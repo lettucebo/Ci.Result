@@ -4,9 +4,16 @@
         <id>$id$</id>
         <version>$version$</version>
         <authors>$authors$</authors>
-        <owners>$copyright$</owners>
+        <owners>$authors$</owners>
         <description>$description$</description>
+        <summary>$description$</summary>
         <projectUrl>$PackageProjectUrl$</projectUrl>
         <iconUrl>$PackageIconUrl$</iconUrl>
+        <tags>execution,result,netcore,net,container</tags>
+        <copyright>Copyright  2017</copyright>
+        <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+        <dependencies>
+            <group targetFramework=".NETStandard1.0" />
+        </dependencies>
     </metadata>
 </package>
