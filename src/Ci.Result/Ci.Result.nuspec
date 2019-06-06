@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <authors>$authors$</authors>
+        <owners>$copyright$</owners>
+        <description>$description$</description>
+        <projectUrl>$PackageProjectUrl$</projectUrl>
+        <iconUrl>$PackageIconUrl$</iconUrl>
+    </metadata>
+</package>
