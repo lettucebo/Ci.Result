@@ -41,4 +41,3 @@ steps:
   inputs:
     command: pack
     packagesToPack: 'src\Ci.Result\Ci.Result.csproj'
-    includeReferencedProjects: true
