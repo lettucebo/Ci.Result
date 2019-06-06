@@ -37,12 +37,13 @@ steps:
     versionSpec: 4.8.1
 
 - task: NuGetCommand@2
-  displayName: 'NuGet pack Ci.Result'
   inputs:
-    command: pack
+    command: 'pack'
     packagesToPack: 'src\Ci.Result\Ci.Result.csproj'
+    versioningScheme: 'off'
 
 - task: NuGetCommand@2
+  displayName: 'NuGet push Ci.Result'
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
