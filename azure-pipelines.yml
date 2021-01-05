@@ -15,9 +15,6 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'restore'
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'restore'
     projects: '**/*.csproj'
     feedsToUse: 'select'
 
