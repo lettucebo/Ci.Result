@@ -34,7 +34,7 @@ steps:
 
 - task: WhiteSource Bolt@20
   inputs:
-    cwd: 'src/Ci.Result'
+    cwd: 'Ci.Result'
 
 - task: NuGetToolInstaller@1
   displayName: 'Use NuGet 4.8.1'
