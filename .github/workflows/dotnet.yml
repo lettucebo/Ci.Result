@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 3.1.301
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: 'src'
+      working-directory: 'src/Ci.Result'
     - name: Build
       run: dotnet build --no-restore
     - name: Test
