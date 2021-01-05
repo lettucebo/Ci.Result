@@ -33,10 +33,7 @@ steps:
     command: 'test'
     projects: '**/*Tests.csproj'
 
-- task: WhiteSource Bolt@20
-  displayName: WhiteSource Bolt
-  inputs:
-    cwd: '/src'
+- task: SonarQubeAnalyze@4
 
 - task: DotNetCoreCLI@2
   displayName: Publish
