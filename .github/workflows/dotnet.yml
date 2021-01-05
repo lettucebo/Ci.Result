@@ -23,5 +23,3 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
       working-directory: 'src/Ci.Result'
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
