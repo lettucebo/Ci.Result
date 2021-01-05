@@ -32,6 +32,10 @@ steps:
     projects: '**/*[Tt]est/*.csproj'
     arguments: '--configuration $(BuildConfiguration) --no-restore'
 
+- task: WhiteSource Bolt@20
+  inputs:
+    cwd: 'src/Ci.Result'
+
 - task: NuGetToolInstaller@1
   displayName: 'Use NuGet 4.8.1'
   inputs:
