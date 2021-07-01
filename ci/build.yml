@@ -1,14 +1,10 @@
-# ASP.NET Core
-# Build and test ASP.NET Core projects targeting .NET Core.
-# Add steps that run tests, create a NuGet package, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
 trigger:
 - dev
 - master
 
 pool:
-  name: Hosted Ubuntu 1604
+  vmImage: 'windows-2019'
+  
 variables:
   BuildConfiguration: 'Release'
 
@@ -35,14 +31,3 @@ steps:
 - task: WhiteSource Bolt@20
   inputs:
     cwd: 'Ci.Result'
-
-- task: NuGetToolInstaller@1
-  displayName: 'Use NuGet 4.8.1'
-  inputs:
-    versionSpec: 4.8.1
-
-- task: NuGetCommand@2
-  displayName: 'NuGet pack Ci.Result'
-  inputs:
-    command: pack
-    packagesToPack: 'src\Ci.Result\Ci.Result.csproj'
