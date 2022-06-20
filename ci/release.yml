@@ -57,7 +57,7 @@ stages:
     jobs:
       - deployment: Deploy
         displayName: Deploy To Nuget.org
-        environment: 'production'
+        environment: 'CiResult'
         pool:
           vmImage: 'windows-latest'
         strategy:
