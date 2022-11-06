@@ -17,7 +17,7 @@ stages:
       - job: Build
         displayName: Build
         pool:
-          vmImage: 'ubuntu-latest'
+          vmImage: 'windows-latest'
 
         steps:
           - task: DotNetCoreCLI@2
@@ -32,6 +32,10 @@ stages:
               command: 'build'
               projects: '**/*.csproj'
               arguments: '--configuration $(BuildConfiguration)'
+          
+          - task: NuGetToolInstaller@1
+            inputs:
+              versionSpec: 5.x.x
 
           - task: NuGetCommand@2
             displayName: 'NuGet pack Ci.Result'
