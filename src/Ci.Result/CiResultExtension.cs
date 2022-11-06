@@ -34,5 +34,15 @@
         {
             return !IsGoodStatus(result);
         }
+
+        /// <summary>
+        /// Check is <see cref="CiResult.Status"/> is Success
+        /// </summary>
+        /// <param name="result"></param>
+        /// <returns></returns>
+        public static bool IsSuccess(this CiResult result)
+        {
+            return result.Status == CiStatus.Success;
+        }
     }
 }

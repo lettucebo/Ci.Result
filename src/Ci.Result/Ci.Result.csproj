@@ -5,7 +5,7 @@
     <Authors>Money Yu</Authors>
     <Company>Money</Company>
     <Description>a simple execution result container for .net and .netcore</Description>
-    <Version>4.1.1</Version>
+    <Version>4.1.2</Version>
     <PackageIconUrl>https://i.imgur.com/3xZ4Cdx.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/lettucebo/Ci.Result</PackageProjectUrl>
   </PropertyGroup>
