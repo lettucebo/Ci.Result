@@ -6,13 +6,12 @@ trigger:
 pr: none
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'ubuntu-latest'
 
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-
 
 stages:
   - stage: Build
@@ -59,7 +58,7 @@ stages:
         displayName: Deploy To Nuget.org
         environment: 'CiResult'
         pool:
-          vmImage: 'windows-latest'
+          vmImage: 'ubuntu-latest'
         strategy:
           runOnce:
             deploy:
