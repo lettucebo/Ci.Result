@@ -3,7 +3,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-2019'
+  vmImage: 'ubuntu-2019'
   
 variables:
   BuildConfiguration: 'Release'
